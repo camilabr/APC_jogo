@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<unistd.h>
+
+#ifdef _WIN32
+	#define CLEAR “cls”
+#else
+	#define CLEAR “clear”
+#endif
+#define MAX_JOGOS 50 
+
+int menu;
+
+int main(){
+    int ;
+    printf("Bem vindo ao jogo Projeto 001\n");
+    getchar();
+    printf("1 - Jogar\n2 - Configuracoes\n3 - Ranking\n4 - Instrucoes\n5- Sair\n");
+    scanf("%d", menu);
+    while(menu!=5){
+        switch menu
+        {
+            case 1:
+            break;
+            case 2:
+            printf("Desculpa, essa opção ainda não está disponível :(");
+            break;
+            case 3:
+            printf("Desculpa, essa opção ainda não está disponível :(");
+            break;
+            case 4:
+            break;
+            default
+            printf("Escolha uma opcao valida, por favor!\n");
+            scanf("%d",menu);
+        }
+         
+    }
+    return 0;
+}
